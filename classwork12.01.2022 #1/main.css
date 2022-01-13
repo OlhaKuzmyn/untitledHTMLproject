@@ -1,0 +1,16 @@
+body {
+    margin: 300px;
+    background: #252526;
+}
+.target {
+    background: #252526;
+    color: #fd6d1e;
+    width: 210px;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 15px 60px;
+    border: 5px solid #fd6d1e;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
