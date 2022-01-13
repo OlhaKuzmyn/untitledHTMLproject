@@ -1,0 +1,12 @@
+body {
+    margin: 50px;
+}
+.block {
+    width: 200px;
+    height: 200px;
+    background: #fda901;
+    box-sizing: border-box;
+    padding: 95px;
+    margin-bottom: 100px;
+    box-shadow: #454546 20px 20px 0 0;
+}
