@@ -1,0 +1,26 @@
+.header {
+    background: #882727;
+    color: #fbdfd5;
+    padding-left: 900px;
+}
+.text1 {
+    background: #bebebf;
+    padding: 20px;
+    margin: 0;
+}
+.text2 {
+    background: #6294eb;
+    padding: 30px 0;
+    margin: 0;
+}
+.block1 {
+    width: 200px;
+    height: 200px;
+    background: #6ab967;
+}
+.block2 {
+    width: 200px;
+    height: 200px;
+    background: #8785ab;
+    border-radius: 20px;
+}
