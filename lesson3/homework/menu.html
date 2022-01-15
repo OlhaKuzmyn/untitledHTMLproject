@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main {
+            width: 500px;
+            height: 550px;
+            background: lightgray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .middle {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        #header {
+            height: 100px;
+            background: yellow;
+            border: 1px solid black;
+        }
+        #menu {
+            height: 300px;
+            flex-basis: 155px;
+            /*width: 100px;*/
+            background: plum;
+            border: 1px solid black;
+        }
+        #boxes {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .post {
+            /*height: 140px;*/
+            flex-basis: 142px;
+            width: 300px;
+            background: deepskyblue;
+            border: 1px solid black;
+
+        }
+        #footer {
+            height: 100px;
+            background: lightyellow;
+            border: 1px solid black;
+        }
+        .main > div {
+            margin: 10px;
+        }
+        /*.main > #boxes > div {*/
+        /*    */
+        /*}*/
+    </style>
+</head>
+<body>
+<div class="main">
+    <div id="header"></div>
+    <div class="middle">
+        <div id="menu"></div>
+        <div id="boxes">
+            <div class="post"></div>
+            <div class="post"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>
