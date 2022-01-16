@@ -1,0 +1,51 @@
+.main {
+    background: lightgrey;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 650px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.a {
+    background: darkgray;
+    height: 120px;
+    /*width: 650px;*/
+}
+.bcdef {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.bcde {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.b {
+    background: #454546;
+    height: 120px;
+    width: 470px;
+}
+.c1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cde {
+    background: #5c5c5e;
+    height: 150px;
+    width: 150px;
+}
+.f {
+    background: gray;
+    width: 160px;
+    height: 280px;
+}
+
+.main > div {
+    margin: 5px;
+}
