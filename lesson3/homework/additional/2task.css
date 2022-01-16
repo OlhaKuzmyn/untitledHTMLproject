@@ -1,0 +1,41 @@
+.main {
+    background: aquamarine;
+    height: 510px;
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    background: royalblue;
+    height: 100px;
+    width: 500px;
+
+}
+.nav {
+    background: midnightblue;
+    height: 100px;
+    width: 500px;
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.m {
+    background: deepskyblue;
+    width: 400px;
+    height: 200px;
+}
+.aside {
+    background: darkslateblue;
+    height: 200px;
+    width: 100px;
+}
+.foot {
+    background: #2cfdf1;
+    height: 100px;
+    width: 500px;
+}
