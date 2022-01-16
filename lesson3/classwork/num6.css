@@ -1,0 +1,38 @@
+.main {
+    background: lightgrey;
+    height: 700px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main > div {
+    margin: 5px;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.home-about {
+    background: #6294eb;
+    width: 190px;
+    height: 300px;
+}
+.kabobs {
+    background: dodgerblue;
+    width: 390px;
+    height: 200px;
+}
+.bottom-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.bobs {
+    background: royalblue;
+    width: 120px;
+    height: 200px;
+}
