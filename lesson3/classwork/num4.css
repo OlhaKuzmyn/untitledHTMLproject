@@ -1,0 +1,43 @@
+.main {
+    background: lightgrey;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 530px;
+    height: 380px;
+}
+.main > div {
+    margin: 10px;
+}
+.a {
+    background: darkolivegreen;
+    height: 100px;
+    width: 510px;
+}
+.other-letters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.other-letters > .cube-letters {
+    margin-right: 10px;
+}
+.cube-letters {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+}
+.bcdefg {
+    background: darkslategray;
+    height: 120px;
+    width: 120px;
+}
+.h {
+    background: olivedrab;
+    height: 250px;
+    width: 120px;
+}
