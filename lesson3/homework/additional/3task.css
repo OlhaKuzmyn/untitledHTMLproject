@@ -25,16 +25,16 @@
 .boxes > h4 {
     box-sizing: border-box;
     text-align: left;
-    padding-left: 70px;
+    padding-left: 80px;
     color: orange;
 }
 .boxes > p {
     box-sizing: border-box;
     text-align: left;
-    padding-left: 70px;
+    padding-left: 80px;
 }
 .boxes > i {
     position: absolute;
     padding-left: 20px;
-
+    font-size: 30px;
 }
