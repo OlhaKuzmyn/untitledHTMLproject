@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+}
+.height1500 {
+    height: 1500px;
+}
+.height700 {
+    height: 700px;
+}
+.height650 {
+    height: 650px;
+}
+.height300 {
+    height: 300px;
+}
+.height250 {
+    height: 250px;
+}
+.height150 {
+    height: 150px;
+}
+.height100 {
+    height: 100px;
+}
+.height50 {
+    height: 50px;
+}
+.height20 {
+    height: 20px;
+}
+.width702 {
+    width: 702px;
+}
+.width660 {
+    width: 660px;
+}
+.width510 {
+    width: 510px;
+}
+.width200 {
+    width: 200px;
+}
+.width150 {
+    width: 150px;
+}
+.width100 {
+    width: 100px;
+}
+.padding20 {
+    padding: 20px;
+}
+.margin-bot-10 {
+    margin-bottom: 10px;
+}
+.margin-r-10 {
+    margin-right: 10px;
+}
+.borderbox {
+    box-sizing: border-box;
+}
+.border-1-b {
+    border: 1px solid black;
+}
+.bgrd-light-gray {
+    background: lightgrey;
+}
+.bgrd-blue {
+    background: midnightblue;
+}
+.black {
+    background: black;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.align-it-center {
+    align-items: center;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-betw {
+    justify-content: space-between;
+}
+.row-gap-10 {
+    row-gap: 10px;
+}
+.column-gap-10 {
+    column-gap: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 412px) {
+    .width412-s {
+        width: 412px;
+    }
+    .width370-s {
+        width: 370px;
+    }
+    .width150-s {
+        width: 150px;
+    }
+    .width50-s {
+        width: 50px;
+    }
+    .height1700-s {
+        height: 1700px;
+    }
+    .height850-s {
+        height: 850px;
+    }
+    .height250-s {
+        height: 250px;
+    }
+    .height200-s {
+        height: 200px;
+    }
+    .height100-s {
+        height: 100px;
+    }
+    .height20-s {
+        height: 20px;
+    }
+    .flex-column-s {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-row-s {
+        display: flex;
+        flex-direction: row;;
+    }
+    .wrap-s {
+        flex-wrap: wrap;
+    }
+    .justify-betw-s {
+        justify-content: space-between;
+    }
+    .column-gap-100-s {
+        column-gap: 100px;
+    }
+
+}

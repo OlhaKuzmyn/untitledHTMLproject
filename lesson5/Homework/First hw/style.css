@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+.main-box {
+    background: lightgrey;
+    height: 500px;
+    width: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.flex-row-betw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex-row-wrap-betw {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.flex-column-betw {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.border-rad-10 {
+    border-radius: 10px;
+}
+.height100 {
+    height: 100px;
+}
+.height150 {
+    height: 150px;
+}
+.height370 {
+    height: 370px;
+}
+.height200 {
+    height: 200px;
+}
+.width680 {
+    width: 680px;
+}
+.width520 {
+    width: 520px;
+}
+.width470 {
+    width: 470px;
+}
+.width170 {
+    width: 170px;
+}
+.width150 {
+    width: 150px;
+}
+
+.bgrd-dark-gray {
+    background: #454546;
+}
+.row-gap-10 {
+    row-gap: 10px;
+}
+.column-gap-10 {
+    column-gap: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 412px) {
+    .width412-s {
+        width: 412px;
+    }
+    .flex-column-even-small {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .flex-column-betw-small {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .flex-row-wrap-center-center-s {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .width392-s {
+        width: 392px;
+    }
+    .width120-s {
+        width: 120px;
+    }
+    .width100-s {
+        width: 100px;
+    }
+    .height700-s {
+        height: 700px;
+    }
+    .height150-s {
+        height: 150px;
+    }
+    .height120-s {
+        height: 120px;
+    }
+    .height100-s {
+        height: 100px;
+    }
+    .height240-s {
+        height: 240px;
+    }
+    .row-gap-10-small {
+        row-gap: 10px;
+    }
+}
