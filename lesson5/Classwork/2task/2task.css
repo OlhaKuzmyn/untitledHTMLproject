@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+}
+.height2000 {
+    height: 2000px;
+}
+.height700 {
+    height: 700px;
+}
+.height600 {
+    height: 600px;
+}
+.height300 {
+    height: 300px;
+}
+.height250 {
+    height: 250px;
+}
+.height200 {
+    height: 200px;
+}
+.height100 {
+    height: 100px;
+}
+.height50 {
+    height: 50px;
+}
+.height20 {
+    height: 20px;
+}
+.width702 {
+    width: 702px;
+}
+.width680 {
+    width: 680px;
+}
+.width300 {
+    width: 300px;
+}
+.width340 {
+    width: 340px;
+}
+.width250 {
+    width: 250px;
+}
+.width200 {
+    width: 200px;
+}
+.width100 {
+    width: 100px;
+}
+.padding10 {
+    padding: 10px;
+}
+.margin-bot-10 {
+    margin-bottom: 10px;
+}
+.borderbox {
+    box-sizing: border-box;
+}
+.bor-1-b {
+    border: 1px solid black;
+}
+.bgrd-light-gray {
+    background: lightgrey;
+}
+.bgrd-indigo {
+    background: indigo;
+}
+.flex-row-betw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-row-wrap-betw-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-column-center-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column-even-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row-gap-20 {
+    row-gap: 20px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 412px) {
+    .width-max-s {
+        width: 100%;
+    }
+    .width-box-s {
+        width: 96.9%;
+    }
+    .height-s {
+        height: 3000px;
+    }
+    .height100p-s {
+        height: 100%;
+    }
+    .height88_2-s {
+        height: 88.2%;
+    }
+    .height40p-s {
+        height: 40%;
+    }
+    .height35p-s {
+        height: 35%;
+    }
+    .height33_3p-s {
+        height: 33.3%;
+    }
+    .height20p-s {
+        height: 20%;
+    }
+    .height16_7p-s {
+        height: 16.7%;
+    }
+    .height15p-s {
+        height: 15%;
+    }
+    .height10p-s {
+        height: 10%;
+    }
+    .height2_5p-s {
+        height: 2.5%;
+    }
+    .flex-column-nowrap-s {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .row-gap-10-s {
+        row-gap: 10px;
+    }
+}
